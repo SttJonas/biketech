@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Competencias Ciclistas - BikeTech Paysandú</title>
+    <meta name="description" content="Calendario de competencias ciclistas en Uruguay y la región">
+    <meta property="og:title" content="Competencias Ciclistas - BikeTech Paysandú">
+    <meta property="og:description" content="Calendario de competencias ciclistas en Uruguay y la región">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    
+    <header id="main-header">
+        <div class="container">
+            <a href="index.html" class="logo"><img src="assets/img/Icono.jpeg" alt="BikeTech logo" style="height:2em;vertical-align:middle;margin-right:0.5em;border-radius:6px;">BikeTech</a>
+            <button class="menu-toggle" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="main-nav" role="navigation">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="tiendas.html">Tiendas</a></li>
+                    <li><a href="competencias.html">Competencias</a></li>
+                    <li><a href="noticias.html">Noticias</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" role="main">
+        <section class="hero">
+            <div class="hero-carousel">
+                <img src="assets/img/F1.jpeg" alt="Bicicleta en Paysandú" class="active">
+                <img src="assets/img/F2.jpeg" alt="Ciclista en ruta">
+                <img src="assets/img/F3.jpeg" alt="Taller de bicicletas">
+                <img src="assets/img/F4.jpeg" alt="Competencia ciclista">
+                <img src="assets/img/F5.jpeg" alt="Grupo de ciclistas">
+            </div>
+            <div class="hero-content">
+                <h1>Competencias Ciclistas</h1>
+                <p class="subtitle">Eventos locales, nacionales e internacionales</p>
+            </div>
+        </section>
+
+        <section class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Filtrar por Nivel</h2>
+                <div class="tabs">
+                    <button class="tab-btn active" data-tab="all">Todos</button>
+                    <button class="tab-btn" data-tab="beginner">Principiante</button>
+                    <button class="tab-btn" data-tab="advanced">Avanzado</button>
+                    <button class="tab-btn" data-tab="pro">Mundial/Pro</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Calendario de Eventos</h2>
+                <div class="competitions-grid">
+                    <article class="card competition-card" data-level="beginner">
+                        <div class="competition-level beginner">Principiante</div>
+                        <h3>Entrenamientos Controlados</h3>
+                        <p><i class="fas fa-calendar"></i> Domingos 16:00 (jul–nov 2025)</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Av. Dr. Roldán, Paysandú</p>
+                        <p>Circuito urbano supervisado: ideal para dar los primeros pasos.</p>
+                        <button class="more-info-btn" data-competition="entrenamientos">Más información</button>
+                    </article>
+                    <article class="card competition-card" data-level="advanced">
+                        <div class="competition-level advanced">Avanzado</div>
+                        <h3>Campeonato Nacional XCO</h3>
+                        <p><i class="fas fa-calendar"></i> 20 jul 2025</p>
+                        <p>Título uruguayo de Cross-Country Olímpico; categorías élite y amateur.</p>
+                        <p><a href="https://www.federacionciclista.com.uy" target="_blank" rel="noopener">federacionciclista.com.uy</a></p>
+                        <button class="more-info-btn" data-competition="xco">Más información</button>
+                    </article>
+                    <article class="card competition-card" data-level="advanced">
+                        <div class="competition-level advanced">Avanzado</div>
+                        <h3>Desafío de los Molinos MTB</h3>
+                        <p><i class="fas fa-calendar"></i> 17 sep 2025</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Sierra de los Caracoles, Maldonado</p>
+                        <p>40 km y 60 km en terreno montañoso.</p>
+                        <p><a href="https://www.encarrera.uy" target="_blank" rel="noopener">encarrera.uy</a></p>
+                        <button class="more-info-btn" data-competition="molinos">Más información</button>
+                    </article>
+                    <article class="card competition-card" data-level="pro">
+                        <div class="competition-level pro">Mundial</div>
+                        <h3>UCI Road World Championships</h3>
+                        <p><i class="fas fa-calendar"></i> 21-28 sep 2025</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Kigali, Rwanda</p>
+                        <p>Primer Mundial de Ruta en África; +5400 m de desnivel en la prueba élite.</p>
+                        <p><a href="https://www.ucikigali2025.rw" target="_blank" rel="noopener">ucikigali2025.rw</a></p>
+                        <button class="more-info-btn" data-competition="uci">Más información</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Competencias Destacadas</h2>
+                <div class="featured-competitions">
+                    <div class="featured-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTocMYKBfpmypW3vQMPptbuAHqvHbNPKn2TDQ&s" alt="Campeonato Nacional XCO" loading="lazy">
+                        <div class="featured-content">
+                            <h3>Campeonato Nacional XCO 2025</h3>
+                            <p>El evento más importante del ciclismo de montaña en Uruguay</p>
+                            <a href="#" class="cta-button">Ver detalles</a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKSH6eyAjjbTEEj6NHDBC96OgEjDQ3wlVxGA&s" alt="Desafío de los Molinos" loading="lazy">
+                        <div class="featured-content">
+                            <h3>Desafío de los Molinos MTB</h3>
+                            <p>Una de las competencias más desafiantes de la región</p>
+                            <a href="#" class="cta-button">Ver detalles</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>BikeTech</h3>
+                    <p>Impulsando el ciclismo en Paysandú</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="tiendas.html">Tiendas</a></li>
+                        <li><a href="competencias.html">Competencias</a></li>
+                        <li><a href="noticias.html">Noticias</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p><i class="fas fa-envelope"></i> Techbike064@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Paysandú, Uruguay</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Suscríbete para recibir novedades</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Tu correo electrónico" required>
+                        <button type="submit">Suscribirse</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 BikeTech. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal de información de competencia -->
+    <div id="competition-modal" class="modal" aria-hidden="true">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Cerrar modal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div id="modal-content"></div>
+        </div>
+    </div>
+
+    <!-- Modal de suscripción -->
+    <div id="subscribe-modal" class="modal" aria-hidden="true">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Cerrar modal">
+                <i class="fas fa-times"></i>
+            </button>
+            <h2>Suscríbete a BikeTech</h2>
+            <p>Recibe las últimas noticias y actualizaciones sobre ciclismo en Paysandú.</p>
+            <form class="subscribe-form">
+                <div class="form-group">
+                    <label for="subscribe-name">Nombre</label>
+                    <input type="text" id="subscribe-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="subscribe-email">Correo electrónico</label>
+                    <input type="email" id="subscribe-email" required>
+                </div>
+                <button type="submit" class="cta-button">Suscribirme</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/carrusel.js"></script>
+</body>
+</html>

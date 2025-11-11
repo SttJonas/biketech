@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiendas de Reparación - BikeTech Paysandú</title>
+    <meta name="description" content="Directorio de talleres de reparación de bicicletas en Paysandú">
+    <meta property="og:title" content="Tiendas de Reparación - BikeTech Paysandú">
+    <meta property="og:description" content="Directorio de talleres de reparación de bicicletas en Paysandú">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    
+    <header id="main-header">
+        <div class="container">
+            <a href="index.html" class="logo"><img src="/assets/img/Icono.jpeg" alt="BikeTech logo" style="height:2em;vertical-align:middle;margin-right:0.5em;border-radius:6px;">BikeTech</a>
+            <button class="menu-toggle" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="main-nav" role="navigation">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="tiendas.html">Tiendas</a></li>
+                    <li><a href="competencias.html">Competencias</a></li>
+                    <li><a href="noticias.html">Noticias</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" role="main">
+        <section class="hero">
+            <div class="hero-carousel">
+                <img src="assets/img/F1.jpeg" alt="Bicicleta en Paysandú" class="active">
+                <img src="assets/img/F2.jpeg" alt="Ciclista en ruta">
+                <img src="assets/img/F3.jpeg" alt="Taller de bicicletas">
+                <img src="assets/img/F4.jpeg" alt="Competencia ciclista">
+                <img src="assets/img/F5.jpeg" alt="Grupo de ciclistas">
+            </div>
+            <div class="hero-content">
+                <h1>Talleres en Paysandú</h1>
+                <p class="subtitle">Encuentra servicio especializado para tu bicicleta</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Ubicación de Talleres</h2>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3396.536316372923!2d-58.07501522481513!3d-31.00092797401043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ae7c55b12c0b2d%3A0x5f3f2d6e4b8e4c4f!2sPaysand%C3%BA%2C%20Departamento%20de%20Paysand%C3%BA!5e0!3m2!1ses!2suy!4v1693425678901!5m2!1ses!2suy" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa de talleres de bicicletas en Paysandú"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Filtrar Talleres</h2>
+                <div class="filters">
+                    <div class="filter-group">
+                        <h3>Horario de atención</h3>
+                        <div class="filter-options">
+                            <button class="filter-btn active" data-filter="all">Todos</button>
+                            <button class="filter-btn" data-filter="sabados">Abren sábados</button>
+                            <button class="filter-btn" data-filter="tarde">Abren después de las 18:00</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Tiendas de reparación</h2>
+                <div class="shops-grid">
+                    <article class="card shop-card" data-sabados="true" data-tarde="false">
+                        <div class="shop-image">
+                            <img src="/assets/img/bicicleta pdu.png" alt="Taller Servicio Ciclístico España" loading="lazy">
+                        </div>
+                        <h3>Bicicletas Paysandú</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Av. España 1644, 60000 Paysandú</p>
+                        <p><i class="fas fa-clock"></i> Lunes a Viernes 9:00-18:00</p>
+                        <p><i class="fas fa-phone"></i> 099 123 456</p>
+                        <div class="shop-actions">
+                            <a href="https://maps.google.com/?q=Av. España 1644, Paysandú" target="_blank" class="action-btn">Ver en mapa</a>
+                            <a href="tel:099123456" class="action-btn">Llamar</a>
+                        </div>
+                    </article>
+                    <article class="card shop-card" data-sabados="true" data-tarde="false">
+                        <div class="shop-image">
+                            <img src="/assets/img/WhatsApp Image 2025-11-10 at 22.23.07.jpeg" alt="Taller Washington" loading="lazy">
+                        </div>
+                        <h3>Margalef</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Washington 724, 60000 Paysandú</p>
+                        <p><i class="fas fa-clock"></i> Lunes a Sábado 8:30-17:30</p>
+                        <p><i class="fas fa-phone"></i> 099 234 567</p>
+                        <div class="shop-actions">
+                            <a href="https://maps.google.com/?q=Washington 724, Paysandú" target="_blank" class="action-btn">Ver en mapa</a>
+                            <a href="tel:099234567" class="action-btn">Llamar</a>
+                        </div>
+                    </article>
+                    <article class="card shop-card" data-sabados="false" data-tarde="true">
+                        <div class="shop-image">
+                            <img src="/assets/img/WhatsApp Image 2025-11-10 at 22.24.56.jpeg" alt="Bicudo Bikes" loading="lazy">
+                        </div>
+                        <h3>El Taller Bike</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Francisco Bicudo 416 BIS, 60000 Paysandú</p>
+                        <p><i class="fas fa-clock"></i> Lunes a Viernes 10:00-19:00</p>
+                        <p><i class="fas fa-phone"></i> 099 345 678</p>
+                        <div class="shop-actions">
+                            <a href="https://maps.google.com/?q=Francisco Bicudo 416 BIS, Paysandú" target="_blank" class="action-btn">Ver en mapa</a>
+                            <a href="tel:099345678" class="action-btn">Llamar</a>
+                        </div>
+                    </article>
+                    <article class="card shop-card" data-sabados="true" data-tarde="true">
+                        <div class="shop-image">
+                            <img src="/assets/img/WhatsApp Image 2025-11-10 at 22.16.28.jpeg" alt="Wheele Paysandú" loading="lazy">
+                        </div>
+                        <h3>Wheele Paysandú</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Dr. Luis A. de Herrera 447, Paysandú</p>
+                        <p><i class="fas fa-clock"></i> Lunes a Sábado 9:00-19:00</p>
+                        <p><i class="fas fa-phone"></i> 099 456 789</p>
+                        <div class="shop-actions">
+                            <a href="https://maps.google.com/?q=Dr. Luis A. de Herrera 447, Paysandú" target="_blank" class="action-btn">Ver en mapa</a>
+                            <a href="tel:099456789" class="action-btn">Llamar</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>BikeTech</h3>
+                    <p>Impulsando el ciclismo en Paysandú</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="tiendas.html">Tiendas</a></li>
+                        <li><a href="competencias.html">Competencias</a></li>
+                        <li><a href="noticias.html">Noticias</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p><i class="fas fa-envelope"></i> Techbike064@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Paysandú, Uruguay</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Suscríbete para recibir novedades</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Tu correo electrónico" required>
+                        <button type="submit">Suscribirse</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 BikeTech. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/carrusel.js"></script>
+</body>
+</html>
